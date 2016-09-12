@@ -12,7 +12,6 @@ body, html {
 
 #container {
     width: 100%;
-    height: auto;
     top: 0;
     right: 0;
     left: 0;
@@ -41,6 +40,8 @@ body, html {
 }
 .nav {
     float: right;
+    border: 1px solid lightpink;
+    padding-right: 20px;
 }
 .nav a {
     color: lightpink;
@@ -66,6 +67,12 @@ h1 {
     font-size: 80px;
     margin: 0;
 }
+h2 {
+    color: lightpink;
+    margin: 0;
+    font-size: 60px;
+
+}
 
 p {
     font-size: 20px;
@@ -86,8 +93,11 @@ p {
 
 .Lain {
     float: right;
-    overflow: hidden;
     padding-right: 30px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+
 
 
 }
@@ -97,4 +107,21 @@ p {
     width: 100%;
 
 
+}
+.form {
+}
+hr {
+    background-color: #ffb6c1;
+    color: #ffb6c1;
+    border: solid 2px #ffb6c1;
+    height: 1px;
+    width: 1000px;
+}
+.amtext {
+    color: lightpink;
+    font-family: cursive;
+
+}
+.boxed {
+    border: 1px solid lightpink;
 }
