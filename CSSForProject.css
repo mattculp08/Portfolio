@@ -117,11 +117,16 @@ hr {
     height: 1px;
     width: 1000px;
 }
-.amtext {
+#amtext {
     color: lightpink;
-    font-family: cursive;
+    font-family: Arial;
+    margin: 300px;
+    font-size: 20px;
+
 
 }
 .boxed {
     border: 1px solid lightpink;
+    margin: 100px;
+
 }
