@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+
+
+
+        <style>
+        div < p{
+            color: darkred;
+        }
+        .typebox {
+            height: 30px;
+            font-size: 20px;
+            border: 1px solid #000;
+            margin-top: 5px;
+            padding-left: 5px;
+
+        }
+        label {
+
+            width: 150px;
+            float: left;
+            padding-top: 15px;
+        }
+
+        .radiogroup {
+            margin-top: 50px;
+            float: left;
+        }
+        .overflowhidden{
+            overflow: hidden;
+        }
+
+        form {
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="myaction.php">
+         <div> <label>My Email</label><input class="typebox" type="text" placeholder="Email" /> </div>
+        <div>  <Label>My Password</Label> <input class="typebox" type="text" placeholder="Password" /> </div>
+         <div> <label> My Number</label><input class="typebox" type="text" placeholder="#(___)(____-______)" /> </div>
+          <div> <label> Favorite Color</label><input class="typebox" type="text" placeholder="Favorite Color" /> </div>
+        <div class="overflowhidden"> <label> Gender </label> <div class="radiogroup"> <input type="radio" name="gender"/> Male <input type="radio" name="gender"/> Female </div> </div>
+            <input type="submit" value="Submit" />
+        <div>
+
+
+
+            <p>I want to cry</p>
+        </div>
+
+
+
+    </form>
+
+</body>
+</html>

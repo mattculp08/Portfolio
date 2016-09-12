@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    background-image: url("http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg");
+    color: white;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica, serif;
+
+}
+
+
+
+#container {
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    height: 100%;
+
+}
+
+.centerbox {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+.site {
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav a {
+    color: lightpink;
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+
+.subheading {
+    color: lightpink;
+    font-family: Monospaced, serif;
+
+}
+.rightsection {
+    float: right;
+    padding-top: 300px;
+    padding-right: 220px;
+
+
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial;
+}
+
+.foot {
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.Lain {
+    float: right;
+    overflow: hidden;
+    padding-right: 30px;
+
+
+}
+.Trademarked {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
