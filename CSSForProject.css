@@ -1,14 +1,18 @@
-body, html {
-    margin: 0;
-    background-image: url("http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg");
+body {
+    margin: 0 auto;
+    background: url("http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg") center repeat-x;
     color: white;
     padding: 0;
-    height: 100%;
     font-family: Helvetica, serif;
+    background-size: cover;
+
 
 }
 
+html {
+    height: 100%;
 
+}
 
 #container {
     width: 100%;
@@ -16,12 +20,9 @@ body, html {
     right: 0;
     left: 0;
     bottom: 0;
-    background-size: cover;
-    background-position: 50% 50%;
     margin: 0 auto;
     clear: both;
     position: relative;
-    height: 100%;
 
 }
 
@@ -50,18 +51,40 @@ body, html {
 
 }
 
-.subheading {
-    color: lightpink;
-    font-family: Monospaced, serif;
-
-}
 .rightsection {
+    padding-top: 20px;
+    width: 50%;
     float: right;
-    padding-top: 300px;
-    padding-right: 220px;
+    text-decoration: none;
+    color: white;
+
+}
+.leftsection {
+    width: 50%;
+    padding-top: 100px;
+    align-content: center;
+    text-align: center;
+    padding-left: 350px;
+    position: absolute;
+
 
 
 }
+#port {
+   font-size: 50px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+#head3 {
+    padding-bottom: 50px;
+}
+
 
 h1 {
     font-size: 80px;
@@ -93,21 +116,12 @@ p {
 
 .Lain {
     float: right;
-    padding-right: 30px;
     bottom: 20px;
     right: 20px;
-    position: absolute;
-
-
-
-}
-.Trademarked {
     position: fixed;
-    bottom: 0;
-    width: 100%;
-
 
 }
+
 .form {
 }
 hr {
@@ -129,4 +143,23 @@ hr {
     border: 1px solid lightpink;
     margin: 100px;
 
+}
+
+.site {
+    margin-top:40px;
+
+}
+.sun {
+    bottom: 50px;
+}
+
+.color { color: lightpink;
+}
+.format {
+    font-size: 100px;
+    color: white;
+    text-decoration: blink;
+    text-align: center;
+    align: center;
+    margin-top: 30px;
 }

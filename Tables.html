@@ -2,54 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Animation Examples</title>
+    <style>
+ body {
+     width: auto;
+     height: auto;
+     background-color: aliceblue;
+
+ }
+        .container {
+            background-color: grey;
+            width: 1000px;
+            height: 1000px;
+
+
+        }
+
+
+
+        #box2:hover {
+            background-color: dodgerblue;
+            width: 200px;
+            height: 200px;
+            animation-name: mymove;
+            animation-duration: 5s;
+
+
+        }
+        .box {
+            background-color: darkred;
+            width: 200px;
+            height: 200px;
+            animation-name: boxer;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-in;
+
+
+
+        }
+        @keyframes boxer {
+            0% {
+                background-color: lightpink;
+            }
+            25% {
+                background-color: aqua;
+            }
+            50% {
+                background-color: yellow;
+            }
+            100% {
+                background-color: green;
+            }
+
+        }
+
+
+@keyframes  mymove {
+
+ from {left: 0px;}
+    to {left: 500px;}
+
+        }
+
+
+
+
+
+
+    </style>
 </head>
 <body>
-    <table border="1">
-        <caption> Listing of Employees</caption>
-        <thead>
 
-            <tr>
-            <th> First Name </th>
-            <th> Last Name </th>
-            <th> Title </th>
-            <th> Start Date </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> Brad </td>
-                <td> Miller</td>
-                <td> Developer </td>
-                <td> 4/15/2006 </td>
-            </tr>
+<div class="container">
+    <div class="box"></div>
+         <div id="box2">
+             Hiya
 
-            <tr>
-                <td> Ben </td>
-                <td> Sanders </td>
-                <td rowspan="2" > QA</td>
-                <td> 10/1/1999</td>
-            </tr>
-
-            <tr>
-                <td> Marcia </td>
-                <td> Bell</td>
-                <td> 5/10/1981</td>
-            </tr>
-
-            <tr>
-                <td>Leslie</td>
-                <td>Wooley</td>
-                <td>Project Manager</td>
-                <td>4/11/1980</td>
-            </tr>
-        </tbody>
-        <tfoot>
-        <td colspan="4">All characters appearing in this work are fictitious. Any resemblance to persons living or dead, is purely coincidental.</td>
-        </tfoot>
-        </table>
+         </div>
+        </div>
 
 
+<p> Animation Examples</p>
 
 
 
