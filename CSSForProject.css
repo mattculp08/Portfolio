@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    background: url("http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg") center repeat-x;
+    background: url("http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg") center repeat-y;
     color: white;
     padding: 0;
     font-family: Helvetica, serif;
@@ -78,14 +78,6 @@ html {
 
 
 
-
-
-
-#head3 {
-    padding-bottom: 50px;
-}
-
-
 h1 {
     font-size: 80px;
     margin: 0;
@@ -122,8 +114,7 @@ p {
 
 }
 
-.form {
-}
+
 hr {
     background-color: #ffb6c1;
     color: #ffb6c1;
@@ -132,10 +123,12 @@ hr {
     width: 1000px;
 }
 #amtext {
-    color: lightpink;
+    color: white;
     font-family: Arial;
-    margin: 300px;
+    margin: 100px;
     font-size: 20px;
+    text-align: center;
+
 
 
 }
@@ -162,4 +155,22 @@ hr {
     text-align: center;
     align: center;
     margin-top: 30px;
+}
+.logo {
+    float: left;
+}
+
+.form {
+    align: center;
+    text-align: center;
+    padding-left: 10px;
+    color: lightpink;
+}
+
+.Head2 {
+    margin-top: 100px;
+}
+xbox {
+    padding-left: 50px;
+    padding-right: 50px;
 }
