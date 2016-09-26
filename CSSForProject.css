@@ -170,7 +170,11 @@ hr {
 .Head2 {
     margin-top: 100px;
 }
-xbox {
+#xbox {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#portbody {
+    background-image: url("https://heavyeditorial.files.wordpress.com/2013/03/abstract-minimalist-tron-hd-wallpaper.jpg?quality=65&strip=all")
 }
